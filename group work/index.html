@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>从“宠物”到“宠儿”｜数据勾勒的宠物拟人化图景</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="./js.js"></script>
+    <link rel="shortcut icon" href="./期末作品素材/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+  <div class="container">
+    <h1>从“宠物”到“宠儿”</h1>
+    <h3>数据勾勒的宠物拟人化图景</h3>
+    
+    <!-- 新增音乐播放按钮 -->
+    <div class="music-toggle" id="musicToggle">
+      <i class="fa fa-music"></i>
+    </div>
+  </div>
+  
+  <!-- 音频元素（隐藏） -->
+  <audio id="bgMusic" loop>
+    <source src="./期末作品素材/bgmusic.mp3" type="audio/mpeg">
+  </audio>
+</header>
+
+    <!-- 模块1：相亲角（视觉焦点） -->
+    <section id="matchmaking">
+        <div class="card" style="max-width: 800px; margin: 0 auto;">
+            
+            <img src="./期末作品素材/xiangqintoutu.jpeg" alt="宠物相亲角" class="matchmaking-banner">
+            <div class="pet-cardb">
+                <p class="fangda">在洒满阳光的公园角落，一场萌态百出的<b>“毛孩子相亲大会”</b>正在上演</p><br>
+                <p>布偶猫优雅地舔着爪子，一旁主人举着“征婚启事”：</p><p>“2岁软萌甜妹，求会哄猫的蓝猫男友”</p><br>
+                <p>隔壁泰迪还在欢快蹦跶着，主人趁机展示“简历”：</p><p>“社牛本牛，急寻同款活泼搭子”</p><br>
+            </div>
+            <!-- 拟物化设计：宠物资料卡片墙 -->
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 15px; margin-top: 30px;">
+                <!-- 动态生成宠物卡片 -->
+                <div class="pet-card">
+                    <div class="pet-cardpic"><img src="./期末作品素材/1.png" alt="布偶猫糖糖"></div>
+                    <p class="pet-cardh">留法女团成员</p>
+                    
+                </div>
+                <div class="pet-card">
+                    <div class="pet-cardpic"><img src="./期末作品素材/2.png" alt="布偶猫糖糖"></div>
+                    <p class="pet-cardh">无锡金融街大明星</p>
+                   
+                </div>
+                <div class="pet-card">
+                    <div class="pet-cardpic"><img src="./期末作品素材/3.png" alt="布偶猫糖糖"></div>
+                    <p class="pet-cardh">垃圾桶名媛</p>
+                    
+                </div>
+                <div class="pet-card">
+                    <div class="pet-cardpic"><img src="./期末作品素材/4.png" alt="布偶猫糖糖"></div>
+                    <p class="pet-cardh">猫界比格</p>
+                </div>
+            </div>
+            <div class="pet-cardb">
+                <p>在宠物相亲角的热闹氛围里，我们触摸到了<b>宠物拟人化</b>的生动一角。</p><br>
+                <p>但这股将宠物视若家人的风潮，远不止为它们寻觅伴侣这么简单。</p>
+                <p>这背后，究竟藏着怎样的<b>“拟人化密码”</b>？</p>
+                <p>它究竟有着怎样的含义？又在消费、社交等领域呈现出哪些深层次的表现？</p><br>
+                <p class="fangda">让我们用数据为引，揭开宠物拟人化的真实面貌。</p>
+            </div>
+            </div>
+            
+    </section>
+
+    <!-- 模块2：数据全景 -->
+    <section id="data-panorama">
+        <h2 class="section-title">数据透视：宠物拟人化全景</h2>
+        
+        <!-- 定义卡片 -->
+        <div class="card" style="overflow: visible;">
+            <h3><i class="fas fa-paw"></i> 什么是宠物拟人化？</h3>
+            <div class="definition-container">
+                <div class="definition-text">
+                    <p>如今，宠物拟人化已不再局限于传统的饲养范畴。</p><p>人们为宠物举办生日派对、拍摄“全家福”，甚至在社交平台为其打造专属形象时，这一现象正深入日常生活。它并非简单的角色扮演，而是将宠物视为会撒娇、有情绪的<b>“家庭一员”</b>，以对待亲友的方式给予情感陪伴。这种人与宠物的<b>“双向情感奔赴”</b>，正重塑着消费与社交的新图景。</p>
+                    <p><b>宠物拟人化</b>的定义是否刷新了你对养宠的认知？事实上，它的影响力远超想象！从消费账单到社交平台，这些毛茸茸的伙伴正以独特方式改变着我们的生活。</p>
+                </div>
+                <div class="definition-image">
+                    <img src="./期末作品素材/头图.png">
+                </div>
+            </div>
+        </div>
+
+        <!-- 消费行为图表 -->
+        <div class="card">
+            <h3><i class="fas fa-shopping-cart"></i> 拟人化消费概况</h3>
+            <div class="definition-text">
+                <p>宠物拟人化消费热潮涌起，<b>城镇宠物主规模与结构变迁</b>成为关键注脚。2019—2023年一季度，城镇猫主人、犬主人数量呈增长走势，展现养宠群体<b>扩容</b>活力；从<b>城市等级分布</b>看，二线城市宠物主占比长期突出，三线及以下城市占比从2020年的20.40% 波动提升至2023年的30.00% 。这一变化，既源于一线城市养宠<b>政策收紧</b>对养宠意愿的影响，也折射出<b>下沉市场消费力提升驱动宠物主增长</b>的态势，为宠物拟人化消费在不同城市层级的渗透与发展，勾勒出人群基础与市场潜力的双重图景，深度解码宠物经济细分赛道的成长逻辑 。</p>
+            </div>
+            <!-- 新增并列Tableau图表容器 -->
+    <div class="dual-tableau-container">
+        <!-- 图表1 -->
+       
+
+<!-- 替换为新图表代码（重点修改部分） -->
+<div class="tableau-half">
+    <div class='tableauPlaceholder' id='viz1751204983963' style='position: relative'>
+        <noscript>
+            <img alt='2019-2023年中国城镇宠物主数量(万人)' src='https://public.tableau.com/static/images/_1/_17511469097560/3/1_rss.png' style='border: none' />
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+            <param name='embed_code_version' value='3' /> 
+            <param name='site_root' value='' />
+            <param name='name' value='_17511469097560/3' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/_1/_17511469097560/3/1.png' /> 
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='zh-CN' />
+            <param name='filter' value='publish=yes' />
+        </object>
+    </div>
+</div>
+        
+        <!-- 图表2 -->
+        <div class="tableau-half">
+            <div class='tableauPlaceholder' id='viz1751197636512' style='position: relative'>
+                <noscript>
+                    <img alt='仪表板 2' src='https://public.tableau.com/static/images/_1/_17511469097560/2/1_rss.png' style='border: none' />
+                </noscript>
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> 
+                    <param name='embed_code_version' value='3' /> 
+                    <param name='site_root' value='' />
+                    <param name='name' value='_17511469097560/2' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/_1/_17511469097560/2/1.png' /> 
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='zh-CN' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    // 优化后的Tableau图表初始化
+  
+function initTableauViz(vizId) {
+    const divElement = document.getElementById(vizId);
+    if (!divElement) return;
+    
+    const vizElement = divElement.getElementsByTagName('object')[0];
+    if (!vizElement) return;
+    
+    // 保持4:3比例（根据新图表尺寸调整）
+    vizElement.style.width = '100%';
+    vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px'; // 16:9比例调整为4:3
+        
+        // 添加响应式调整
+        const resizeHandler = () => {
+            vizElement.style.height = calculateHeight() + 'px';
+        };
+        
+        window.addEventListener('resize', resizeHandler);
+        
+        // 加载Tableau脚本
+        if (!document.querySelector('script[src="https://public.tableau.com/javascripts/api/viz_v1.js"]')) {
+            const scriptElement = document.createElement('script');
+            scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+            document.body.appendChild(scriptElement);
+        }
+    }
+    
+    // 初始化图表（确保DOM完全加载后执行）
+    document.addEventListener('DOMContentLoaded', function() {
+        // 初始化两个图表
+        initTableauViz('viz1751204983963');
+        initTableauViz('viz1751197636512');
+            
+            // 窗口大小变化时重新调整
+            window.addEventListener('resize', function() {
+                initTableauViz('viz1751204983963');
+                initTableauViz('viz1751197636512');
+            });
+        });
+    </script>
+            <!-- 修改后的视频与文字布局模块 -->
+            <div class="video-row">
+            <!-- 视频部分：使用aspect-ratio保持竖屏比例 -->
+            <div class="video-frame">
+                <video src="./期末作品素材/jingjizengzhang.mp4" autoplay loop muted>
+                您的浏览器不支持video标签
+                </video>
+            </div>
+            <!-- 文字说明部分 -->
+            <div class="video-text">
+                <p>从2020到2024年，<b>宠物经济</b>消费额逐年攀升的柱状图与增长率曲线的波动交织，勾勒出行业发展轨迹——消费额连跨台阶持续积累，增长率虽有波折，却如"成长脉搏"，反映出宠物经济在满足养宠人群需求中，经历调整仍借<b>市场需求驱动、养宠需求深化与消费升级</b>，持续拓展、保持向上势能，彰显新兴赛道强劲动力，预示广阔成长空间，<b>"它经济"</b>蓝图正不断绘就。</p>
+            </div>
+            </div>
+            <div class="definition-text">
+                    <p style="margin-bottom: 50px;">当宠物在养宠群体心中从<b> “陪伴者”</b> 进阶为 <b>“家人”</b>，宠物消费市场的风向悄然转变。宠物生日蛋糕、专属服装等拟人化消费品类增速显著，主人将宠物视同家人的情感，正驱动宠物经济向更具温度与细腻度的<b> “拟人化” </b>赛道延伸，勾勒出行业发展新图景 。</p>
+                </div>
+            <!-- 插入更新后的Tableau图表 -->
+<div class="tableau-container" style="position: relative; width: 100%; margin: 20px 0;">
+  <div class='tableauPlaceholder' id='viz1751178176066'>
+    <noscript>
+      <img alt='经济情况' src='https://public.tableau.com/static/images/_1/_17511418901840/sheet8/1_rss.png' style='border: none' />
+    </noscript>
+    <object class='tableauViz' style='display:block; width: 100%;'>
+      <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+      <param name='embed_code_version' value='3' />
+      <param name='site_root' value='' />
+      <param name='name' value='_17511418901840/sheet8' />
+      <param name='tabs' value='no' />
+      <param name='toolbar' value='yes' />
+      <param name='static_image' value='https://public.tableau.com/static/images/_1/_17511418901840/sheet8/1.png' />
+      <param name='animate_transition' value='yes' />
+      <param name='display_static_image' value='yes' />
+      <param name='display_spinner' value='yes' />
+      <param name='display_overlay' value='yes' />
+      <param name='display_count' value='yes' />
+      <param name='language' value='zh-CN' />
+      <param name='filter' value='publish=yes' />
+    </object>
+  </div>
+</div>
+<script type='text/javascript'>
+  var divElement = document.getElementById('viz1751178176066');
+  var vizElement = divElement.getElementsByTagName('object')[0];
+  var cardElement = divElement.closest('.card'); // 获取父容器
+
+  // 优化响应式逻辑：根据宽度动态计算高度（4:3比例）
+  function resizeTableau() {
+    if (divElement.offsetWidth > 0) {
+      // 4:3 比例计算高度，最大高度限制为800px
+      var height = Math.min(divElement.offsetWidth * 0.75, 800);
+      vizElement.style.height = height + 'px';
+      
+      // 调整父容器padding，确保不溢出
+    
+    }
+  }
+
+  // 初始加载时调整
+  window.addEventListener('load', resizeTableau);
+  // 窗口大小变化时调整
+  window.addEventListener('resize', resizeTableau);
+  // Tableau API加载后再次调整（确保渲染完成）
+  var scriptElement = document.createElement('script');
+  scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+  scriptElement.onload = function() {
+    setTimeout(resizeTableau, 500);
+  };
+  vizElement.parentNode.insertBefore(scriptElement, vizElement);
+</script>
+<div class="definition-text" style="margin-top: 50px;">
+                    <p>从消费金额到增长曲线，宠物拟人化行业的成长轨迹清晰显现：2024年，拟人化特色消费达<b>501亿元</b>，与用品、食品消费形成差异化布局；增长率对比中，<b>拟人化消费</b>长期高于行业均值，展现出强劲活力；<b>拟人化服务</b>占比<b>超18%</b> ，成为消费新流向。这些数据，从规模、增速、结构维度，真实呈现宠物拟人化经济的成长步伐，折射出养宠<b>消费升级</b>的趋势。</p>
+                </div>
+           
+        <figcaption class="image-caption">数据来源：艾瑞咨询:2024年中国宠物行业研究报告</figcaption>
+        </div>
+
+        
+            <!-- 社交媒体互动 -->
+<div class="card"style="gap:15px;">
+    <h3><i class="fas fa-comments"></i> 社交媒体的"宠言宠语"</h3>
+    <div class="definition-text" style="gap: 0px;">
+        <p>社交媒体上的宠物拟人化话题热度，正以热力地图的形式清晰呈现：从全国范围看，<b>北京、广东、上海、浙江</b>等区域热力值高，IP活跃度基本呈现<b>由北到南、由西到东递增</b>的态势分布，峰值3428标注出核心活跃地带<b>北京</b>，一幅宠物社交讨论的热力版图，直观展现“毛孩子”相关内容在社交平台的传播热度与区域差异 。</p>
+        
+        <!-- 插入的Tableau图表 -->
+        <div class="tableau-container tableau-container-2" style="position: relative; width: 100%; margin: 20px 0;">
+        <div class='tableauPlaceholder' id='viz1751179530955' style='position: relative'>
+                <noscript>
+                    <img alt='地图 ' src='https://public.tableau.com/static/images/8D/8D9NCYH6C/1_rss.png' style='border: none' />
+                </noscript>
+                <object class='tableauViz' style='display:block; width: 100%;'>
+                    <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                    <param name='embed_code_version' value='3' />
+                    <param name='path' value='shared/8D9NCYH6C' />
+                    <param name='toolbar' value='yes' />
+                    <param name='static_image' value='https://public.tableau.com/static/images/8D/8D9NCYH6C/1.png' />
+                    <param name='animate_transition' value='yes' />
+                    <param name='display_static_image' value='yes' />
+                    <param name='display_spinner' value='yes' />
+                    <param name='display_overlay' value='yes' />
+                    <param name='display_count' value='yes' />
+                    <param name='language' value='zh-CN' />
+                    <param name='filter' value='publish=yes' />
+                </object>
+            </div>
+        </div>
+    </div>
+    <script type='text/javascript'>
+    var newDiv = document.getElementById('viz1751179530955');
+    var newViz = newDiv.getElementsByTagName('object')[0];
+    
+    function resizeNewTableau() {
+        if (newDiv.offsetWidth > 0) {
+        var height = Math.min(newDiv.offsetWidth * 0.75, 800);
+        newViz.style.height = height + 'px';
+        }
+    }
+    window.addEventListener('load', resizeNewTableau);
+    window.addEventListener('resize', resizeNewTableau);
+    
+    var newScript = document.createElement('script');
+    newScript.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+    newScript.onload = () => setTimeout(resizeNewTableau, 500);
+    newViz.parentNode.insertBefore(newScript, newViz);
+    </script>
+    
+    
+    <div class="social-container" style="margin: 40px;">
+                <div class="yanyu-image">
+                <img src="./期末作品素材/chongyanchongyu.png">
+                <figcaption class="image-caption">
+                    小红书平台#宠物##毛孩子#等相关词条下高频词词云图<br>数据来源：小红书爬取数据 N=17245
+                </figcaption>
+                </div>
+
+                 <!-- 三个错落卡片 -->
+    <div class="analysis-cards">
+         <div class="definition-text">
+            <p>社交平台上，宠物迷惑行为大赏等话题动辄收获上亿浏览量，主人分享宠物日常的背后，蕴含着怎样的<b>情感共鸣</b>？</p>
+        </div>
+      <div class="card analysis-card card--1">
+        <p><b style="font-size: larger;">亲属角色赋予</b></p><p>“女儿”“儿子”“弟弟” 的亲昵称呼，将宠物<b>纳入家庭体系</b>，折射 “毛孩子” 的核心定位。</p>
+      </div>
+      <div class="card analysis-card card--2">
+        <p><b style="font-size: larger;">情感深度绑定</b></p><p>“陪伴”“开心” 高频出现，揭露出宠物已是主人<b>心灵慰藉的重要载体</b>。</p>
+      </div>
+      <div class="card analysis-card card--3">
+        <p><b style="font-size: larger;">日常烟火气</b></p><p>“拆家”“写真” 等词，又勾勒出 “又爱又无奈” 的真实相处<br>——宠物不仅是 “家人”，更是<b>鲜活的生活伙伴</b>。</p>
+      </div>
+    </div>
+    </div>
+    
+    </section>
+
+    <!-- 模块3：原因与影响（访谈+图表） -->
+    <!-- 宠物语录展示区 -->
+    <section class="quotes-section">
+        <h2 class="section-title">我们为什么要"毛孩子"？</h2>
+        <p style="font-size: large;font-weight: bold;padding-bottom: 20px;">看过宠物拟人化在消费与社交领域的“亮眼表现”，你是否好奇：为何我们甘愿为宠物投入情感与消费？<br>是都市生活的<b>孤独</b>催生了依赖，还是宠物的<b>治愈力</b>触动了内心？<br>接下来，我们将通过真实的访谈与问卷，深挖背后的情感动因。</p>
+        <div class="quote-cards-container">
+            <div class="quote-card active" data-target="programmer">
+                <p class="quote-text">用三个词形容？<b>陪伴、互动、成长</b>——它蹲在键盘上看我做会计作业时，就是最好的学习搭子。</p>
+                <p class="author">——20岁学生晟安与狸花猫年糕</p>
+            </div>
+            
+            <div class="quote-card" data-target="designer">
+                <p class="quote-text">给它买生日蛋糕时突然意识到，这小家伙早就是家庭群里的<b>C位</b>了。</p>
+                <p class="author">——20岁学生属言与比熊犬多米</p>
+            </div>
+            
+            <div class="quote-card" data-target="freelancer">
+                <p class="quote-text">上次哭的时候它叼来拖鞋摇尾巴，气得我破涕为笑——人类安慰会讲道理，<b>它只负责让你笑</b>。</p>
+                <p class="author">——19岁学生回音与博美犬卢卡</p>
+            </div>
+        </div>
+        
+        <div class="details-container">
+             <div class="detail-content default-message">
+                <i class="fas fa-paw"></i>
+                <h3>点击上方语录卡片</h3>
+                <p>查看宠物主人的详细信息和他们可爱的毛孩子</p>
+            </div>
+            <div class="detail-content active" id="programmer">
+                <div class="owner-info-container">
+                    <div class="owner-avatar">
+                        <img src="./期末作品素材/ren1.png" class="avatar">
+                        <h3 class="owner-name">晟安</h3>
+                        <div class="owner-meta">
+                            <p><strong>专业：</strong> 会计</p>
+                            <p><strong>年龄：</strong> 20岁</p>
+                            <p><strong>养宠经验：</strong> 3年</p>
+                        </div>
+                    </div>
+                    
+                    <div class="pet-info">
+                        <div class="pet-name">年糕</div>
+                        <img src="./期末作品素材/chong1.png" class="pet-image">
+                        <div class="pet-description">
+                            <p>年糕，狸花猫，三岁。性格怕生，但对主人常常展现可爱的一面，喜欢被抱在怀里。最爱的食物是猫条，最大的爱好是翻垃圾桶。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-highlight">
+                 我难过的时候，年糕光是站在那里就会让我稍微好受一些，毛茸茸的小动物看着就很治愈。
+                </div>
+            </div>
+            
+            <div class="detail-content" id="designer">
+                <div class="owner-info-container">
+                    <div class="owner-avatar">
+                        <img src="./期末作品素材/ren3.png" class="avatar">
+                        <h3 class="owner-name">属言</h3>
+                        <div class="owner-meta">
+                            <p><strong>专业：</strong> 新闻学</p>
+                            <p><strong>年龄：</strong> 20岁</p>
+                            <p><strong>养宠经验：</strong> 4年</p>
+                        </div>
+                    </div>
+                    
+                    <div class="pet-info">
+                        <div class="pet-name">多米</div>
+                        <img src="./期末作品素材/chong3.png" class="pet-image">
+                        <div class="pet-description">
+                            <p>多米，比熊犬，四岁。性格活泼好动，但有很多小心机（比如犯了错会藏起来）。最大的爱好是吃和拆家。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-highlight">
+                    宠物为我的生活带来很多欢乐和新奇的体验，让我第一次为了一个小生命负起责任。它带给我一种截然不同的人生。
+                </div>
+            </div>
+            
+            <div class="detail-content" id="freelancer">
+                <div class="owner-info-container">
+                    <div class="owner-avatar">
+                        <img src="./期末作品素材/ren2.png" class="avatar">
+                        <h3 class="owner-name">回音</h3>
+                        <div class="owner-meta">
+                            <p><strong>专业：</strong> 财管</p>
+                            <p><strong>年龄：</strong> 19岁</p>
+                            <p><strong>养宠经验：</strong> 1年</p>
+                        </div>
+                    </div>
+                    
+                    <div class="pet-info">
+                        <div class="pet-name">卢卡</div>
+                        <img src="./期末作品素材/chong2.png" class="pet-image">
+                        <div class="pet-description">
+                            <p>卢卡，博美犬，一岁。性格呆萌，智商不高（主人言）。由于还在生长期，特别活泼，静若处子动若脱兔。</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quote-highlight">
+                    宠物改变了我的生活，改变了我的家庭，也改变了我对生命的看法。
+                </div>
+            </div>
+        </div>
+    <!-- 原因 -->
+    <div class="card" style="margin-top: 20px;">
+            <h3><i class="fas fa-heart"></i> 宠物拟人化心理成因</h3>
+            <div class="definition-text">
+            <p>人们养宠背后，藏着多元情感逻辑。从<b>陪伴需求到责任培养</b>，不同心理动因，共同勾勒当代养宠的情感底色 。</p>
+        </div>
+            <!-- 新增的视频+文字布局 -->
+    <div class="definition-container">
+        <!-- 左侧文字 -->
+        <div class="definition-text">
+            <p>图表显示，<b>“获得情感慰藉” </b>以超 100 的小计值，成为养宠人群首要驱动力，同比比率超 30% ；“喜欢动物”“培养责任心和爱心” 紧随其后，而 “看家护院 / 功能性需求”“社交需求”“跟随潮流” 占比逐步降低。</p><p>这组数据清晰呈现当代人养宠动机的多元结构，<b>情感陪伴</b>需求在养宠选择中占据绝对主导，为洞察宠物经济背后的情感逻辑提供关键依据，反映出都市人群在<b>情感联结与生活诉求</b>上的新趋势 。</p>
+        </div>
+        
+        <!-- 右侧视频 -->
+        <div class="definition-video">
+            <video src="./期末作品素材/dongji.mp4" autoplay loop muted></video>
+        </div>
+    </div>
+    
+    
+             <div class="definition-text">
+                    <p>养宠动机驱动下，宠物以稳定单纯的陪伴，精准适配人们对情感联结的深层诉求。这份情感投射，既催生生日蛋糕、精致服饰等拟人化消费，也让主人们在日常互动里不断投入情感，逐步将宠物<b>“家人化”</b>，悄然解码当代人重构亲密关系的独特逻辑 。</p>
+                </div>
+            <div class="chart-container">
+                <div class="definition-video">
+                    <video src="./期末作品素材/why.mp4" loop autoplay muted>
+                </div>
+            </div>
+            <br>
+            <figcaption class="image-caption">数据来源：全国宠物主人问卷调查 N=201</figcaption>
+        </div>
+        <h2 style="text-align: center;margin-bottom: 10px;">宠物拟人化核心人群画像</h2>
+        <div class="definition-text" style="text-align: center;">
+                    <p>通过整理资料和对关键词的分析可知，宠物拟人化发生率较高的人群中，各自都有其显著的特征。</p>
+                </div>
+                <div class="huaxiang-image">
+                    <image src="./期末作品素材/huaxiang.png">
+                </div>
+            </div>
+            <br>
+            <figcaption class="image-caption" style="margin-bottom: 20px;">数据来源：《2025年中国宠物行业市场报告调查报告》、《2024八大宠物心智人群洞察报告》等</figcaption>
+        </div>
+       <div class="definition-text">
+                    <p>空巢老人以“幺儿”唤宠填补亲情空缺，独居青年借宠物派对构筑赛博家庭；丁克夫妇将宠物捧为全家福C位，Z世代用潮牌联名打造萌宠社交货币；高净值女性以珠宝项圈铭刻阶级符号，城市新移民则让方言命名的宠物载动乡愁——当毛孩子成为<b>情感载体</b>，每一场宠物婚礼与相亲局，都是当代人<b>重写亲密关系的仪式性表达</b>。</p>
+                </div>
+    </div>
+    </section>
+
+
+    
+    <!-- 模块3：原因与影响（访谈+图表） -->
+    <section id="reasons-impact">
+        <!-- 情感影响桑基图 -->
+        <div class="card">
+            <h3><i class="fas fa-exchange-alt"></i> 宠物拟人化浪潮下的生活重塑</h3>
+            <p>在当下，宠物早已不是简单的“喂养对象”，而是升级为<b>“家庭成员”</b>，宠物拟人化正全方位改变着人们的生活。</p>​
+            <div class="impact-container">
+                <div class="impact-column">
+                    <h4><i class="fas fa-hand-holding-heart"></i>情感变化</h4>
+                    <ul>
+                        <li><i class="fas fa-arrow-right"></i> 缓解孤独：城市化下人际关系瓦解，独居者借宠物陪伴对抗孤独，获温暖慰藉。</li>
+                        <li><i class="fas fa-arrow-right"></i> 减轻压力：快节奏生活压力大，宠物憨态与互动帮主人放松，减轻精神负担。</li>
+                        <li><i class="fas fa-arrow-right"></i> 提升幸福：日常相伴的玩耍、撒娇，为生活添乐趣温馨，充盈内心、提升幸福。</li>
+                    </ul>
+                </div>
+                <div class="impact-column">
+                    <h4><i class="fas fa-universal-access"></i>行为变化</h4>
+                    <ul>
+                        <li><i class="fas fa-arrow-right"></i> 社交拓展：养宠者因遛宠、聚会等结识同好，以宠物为纽带拓展社交、建立新关系。</li>
+                        <li><i class="fas fa-arrow-right"></i> 消费转变：视宠物为家人，消费向采购、护理等倾斜，品类增、支出占比升。</li>
+                        <li><i class="fas fa-arrow-right"></i> 生活规律：养宠需定时喂食、遛弯等，规范随意作息，养成健康有序习惯。</li>
+                    </ul>
+                </div>
+                <div class="impact-column">
+                    <h4><i class="fas fa-coffee"></i>生活影响</h4>
+                    <ul>
+                        <li><i class="fas fa-arrow-right"></i> 家庭氛围优化：小家庭模式下，宠物成特殊成员，增互动、活跃氛围，提升家庭凝聚力。</li>
+                        <li><i class="fas fa-arrow-right"></i> 责任感增强：养宠需全方位负责，从照料到防病，激发责任感，学会关爱付出。</li>
+                        <li><i class="fas fa-arrow-right"></i> 生活体验丰富：宠物为生活添意外惊喜，打破平淡，带来乐趣挑战，丰富体验。</li>
+                    </ul>
+                </div>
+                <p>参考文献：[1]李钧鹏,杨太文.拟人化消费逻辑的再生产:对青年养宠行为的反思[J].当代青年研究,2024,(06):104113.</p>
+            </div>
+        </div>
+    </section>
+   
+       <!-- Footer部分 -->
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4><i class="fas fa-users"></i> 团队成员及主要职责</h4>
+                <ul>
+                    <li>20231071125罗惠芳：数据图表</li>
+                    <li>20231071106李卓昀：文案撰写</li>
+                    <li>20231071123莫琳琳：前端开发</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4><i class="fas fa-database"></i> 数据来源</h4>
+                <ul>
+                    <li>2024年中国宠物行业研究报告等报告</li>
+                    <li>小红书数据分析（2025.04-2025.06）</li>
+                    <li>全国宠物主人问卷调查（N=201）</li>
+                    <li>深度访谈（宠物主人×3）</li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4><i class="fas fa-info-circle"></i> 说明信息</h4>
+                <ul>
+                    <li>本作品为数据新闻课程作业</li>
+                    <li>数据收集时间：2025年3月—6月</li>
+                    <li>版权所有 ©2025 数据新闻难不倒我们 </li>
+                    <li>联系方式：contact@pets-data.com</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>数据新闻：从“宠物”到“宠儿”：数据勾勒的宠物拟人化图景 | 感谢所有参与调研的宠物主人</p>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-weixin"></i></a>
+                <a href="#"><i class="fab fa-weibo"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const quoteCards = document.querySelectorAll('.quote-card');
+            const detailContents = document.querySelectorAll('.detail-content');
+            const defaultMessage = document.querySelector('.default-message');
+            const detailsContainer = document.querySelector('.details-container');
+            
+            // 初始显示默认消息
+            defaultMessage.style.display = 'flex';
+            defaultMessage.classList.add('active');
+            
+            quoteCards.forEach(card => {
+                card.addEventListener('click', function() {
+                    // 移除所有卡片的active类
+                    quoteCards.forEach(c => c.classList.remove('active'));
+                    
+                    // 为当前卡片添加active类
+                    this.classList.add('active');
+                    
+                    // 获取目标内容ID
+                    const targetId = this.getAttribute('data-target');
+                    
+                    // 隐藏所有详情内容
+                    detailContents.forEach(content => {
+                        content.style.display = 'none';
+                        content.classList.remove('active');
+                    });
+                    
+                    // 隐藏默认消息
+                    defaultMessage.style.display = 'none';
+                    defaultMessage.classList.remove('active');
+                    
+                    // 显示目标内容
+                    const targetContent = document.getElementById(targetId);
+                    targetContent.style.display = 'flex';
+                    targetContent.classList.add('active');
+                    
+                    // 确保容器高度适应内容
+                    detailsContainer.style.minHeight = 'auto';
+                });
+            });
+        });
+    </script>
+</body>
+</html>
